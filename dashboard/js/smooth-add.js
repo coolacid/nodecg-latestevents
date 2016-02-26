@@ -45,8 +45,10 @@ function smoothAdd(id, text)
 	first.animate({ top: 0 }, 250, function() {
 		first.animate({ marginTop: oldMarginTop }, 700, function() {
 			last.animate({ top: ulPaddingBottom }, 250, function() {
-				last.remove();
-
+                                while (el[0].childNodes.length > 10) {
+                	            var last  = $('li:last',  el);
+                                    last.remove()
+                                }
 				el.css({
 					height:   'auto',
 					overflow: 'visible'
@@ -54,4 +56,5 @@ function smoothAdd(id, text)
 			});
 		});
 	});
+
 }
