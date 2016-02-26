@@ -1,0 +1,1 @@
+# nodecg-latestevents
