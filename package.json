@@ -1,0 +1,22 @@
+{
+    "name": "nodecg-latestevents",
+    "version": "0.0.1",
+    "description": "A list of all events",
+    "authors": [
+        "Jason Kendall"
+    ],
+    "homepage": "",
+    "license": "",
+    "nodecg": {
+        "compatibleRange": "~0.7.0",
+        "dashboardPanels": [
+          {
+            "name": "event_list",
+            "title": "Lastest Events",
+            "width": 2,
+            "headerColor": "#564573",
+            "file": "panel.html"
+          }
+        ]
+    }
+}

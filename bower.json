@@ -1,0 +1,6 @@
+{
+  "name": "bacon_subs",
+  "dependencies": {
+    "jquery": "components/jquery"
+  }
+}
